@@ -1,0 +1,86 @@
+body {
+    background-color: rgb(15, 0, 0);
+    --border-color: rgb(75, 20, 20);
+    --main-background-color: rgb(155, 125, 125);
+    --main-text-color: rgb(255,240,240);
+}
+
+#title {
+    border-color: var(--border-color);
+    color: rgb(125, 20, 20);
+    background-color: rgb(240, 230, 210);
+}
+
+#tabs {
+    background-color: rgb(165, 150, 150);
+}
+
+.tabButton:hover {
+    background-color: rgb(150, 135, 135);
+    color: rgb(125, 20, 20);
+}
+
+.tabButton {
+    border-color: var(--border-color);
+    color: rgb(50, 15, 15);
+}
+
+#currentTab {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+#centerDisplay {
+    display: flex;
+    border-left: solid;
+    border-right: solid;
+    border-color: var(--border-color);
+    background-color: var(--main-background-color);
+}
+
+#schoolInfo {
+    display: block;
+    height: auto;
+    width: 58%;
+    margin: auto;
+    overflow-wrap: break-word;
+    text-indent: 10%;
+    color: var(--main-text-color);
+    font-size: 125%;
+}
+
+#schoolInfoText {
+    margin-left: 24%;
+}
+
+#uwMascot {
+    margin: 5%;
+    object-fit: contain;
+}
+
+#courseInfo {
+    border: solid;
+    border-color: var(--border-color);
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+#courseInfoTitle {
+    margin: 2%;
+    text-align: center;
+}
+
+.typeOfCourse {
+    margin: 2%;
+}
+
+table, th, td {
+    border: solid;
+    border-collapse: collapse;
+}
+
+.courseTable {
+    width: 96%;
+    margin: 2%;
+    text-align: center;
+}

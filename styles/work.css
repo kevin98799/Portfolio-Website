@@ -1,0 +1,58 @@
+body {
+    background-color: rgb(15, 0, 0);
+    --border-color: rgb(75, 20, 20);
+    --main-background-color: rgb(155, 125, 125);
+    --main-text-color: rgb(255,240,240);
+}
+
+#title {
+    border-color: var(--border-color);
+    color: rgb(125, 20, 20);
+    background-color: rgb(240, 230, 210);
+}
+
+#tabs {
+    background-color: rgb(165, 150, 150);
+}
+
+.tabButton:hover {
+    background-color: rgb(150, 135, 135);
+    color: rgb(125, 20, 20);
+}
+
+.tabButton {
+    border-color: var(--border-color);
+    color: rgb(50, 15, 15);
+}
+
+#currentTab {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+.workDisplay {
+    display: block;
+    border: solid;
+    border-top: none;
+    border-color: var(--border-color);
+    background-color: var(--main-background-color);
+}
+
+.workImg {
+    margin: 2.5%;
+    margin-bottom: 0%;
+    object-fit: contain;
+}
+
+.workDescription {
+    display: block;
+    margin: 5%;
+    margin-top: 0%;
+    overflow-wrap: break-word;
+    color: var(--main-text-color);
+    font-size: 125%;
+}
+
+li {
+    margin: 2%
+}

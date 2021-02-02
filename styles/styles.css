@@ -1,0 +1,38 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Fredericka+the+Great&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Cormorant+Garamond&display=swap');
+
+body button{
+    font-family: 'Cormorant Garamond', serif;
+}
+
+#title {
+    display: block;
+    border: solid;
+    text-align: center;
+    margin: 0%;
+    padding: 5%;
+    border-bottom: none;
+    font-family: 'Kaushan Script', cursive;
+    font-size: 450%;
+}
+
+#tabs {
+    display: flex;
+}
+
+.tabButton {
+    display: block;
+    border: solid;
+    width: 20%;
+    text-align: center;
+    font-size: 160%;
+    text-decoration: none;
+    font-family: 'Fredericka the Great', cursive;
+    padding-top: 1%;
+    padding-bottom: 1%;
+}
+
+#currentTab {
+    border-bottom: none;
+}

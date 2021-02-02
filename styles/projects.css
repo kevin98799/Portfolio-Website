@@ -1,0 +1,64 @@
+body {
+    background-color: rgb(0, 35, 40);
+    --border-color: rgb(55, 65, 130);
+    --main-background-color: rgb(120, 135, 160);
+    --main-text-color: rgb(243, 255, 255);
+}
+
+#title {
+    border-color: var(--border-color);
+    color: rgb(65, 80, 160);
+    background-color: rgb(230, 240, 245);
+}
+
+#tabs {
+    background-color: rgb(140, 155, 170);
+}
+
+.tabButton:hover {
+    background-color: rgb(125, 140, 155);
+    color: rgb(65, 80, 160);
+}
+
+.tabButton {
+    border-color: var(--border-color);
+    color: rgb(30, 25, 100);
+}
+
+#currentTab {
+    background-color: var(--main-background-color);
+    color: var(--main-text-color);
+}
+
+.projectDisplay {
+    display: flex;
+    border: solid;
+    border-top: none;
+    border-color: var(--border-color);
+    background-color: var(--main-background-color);
+}
+
+.projectImg {
+    margin: 2%;
+    object-fit: contain;
+}
+
+.projectDescription {
+    display: block;
+    height: auto;
+    width: 72%;
+    margin: 2%;
+    overflow-wrap: break-word;
+    color: var(--main-text-color);
+    font-size: 125%;
+}
+
+li {
+    margin: 2%
+}
+
+#videogameImages {
+    display: block;
+    width: 20%;
+    margin-top: 5%;
+}
